@@ -1,0 +1,19 @@
+class Program 
+{ 
+static void Main(string[] args) 
+{ 
+Product[] products = new Product[3]; 
+products[0] = new Laptop("P001", "Dell", "Inspiron", 85000, 16); 
+products[1] = new Laptop("P002", "HP", "Pavilion", 65000, 8); 
+products[2] = new Smartphone("P003", "Samsung", "Galaxy A54", 52000, 64); 
+foreach (Product p in products) 
+{ 
+         p.ShowInfo(); 
+     } 
+    
+   } 
+
+ }
+
+   
+
